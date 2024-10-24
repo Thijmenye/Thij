@@ -392,6 +392,14 @@ aside {
     height: 500px;
 }
 
+.fullWidth {
+    width: 100%;
+}
+
+.fullHeight {
+    height: 100%;
+}
+
 .bottomheight {
     height: 350px;
 }
