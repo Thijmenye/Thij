@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="icon" type="image/umbarent-icon" href="img\favicon.png">
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="css/finalAssignment.css">
+</head>
+<body>
+    <img src="img\raindrops_in_a_puddle(3).png" class="navBackground">
+    <nav class="flexbox top">
+        <a href="home.html" class="logo"><img src="img/umbarent-logo.png" alt="umbarent logo" title="umbarent" class="logo"></a>
+        <section class="topBox">
+            <section class="flexbox pageSelect">
+                <a href="home.html"><button type="button" class="goToPage">home page</button></a>
+                <a href="whatIsWebsite.html"><button type="button" class="goToPage">about umbrental</button></a>
+                <a href="maps.html"><button type="button" class="goToPage">maps</button></a>
+                <a href="howToUse.html"><button type="button" class="goToPage">about umbrella's</button></a>
+                <a href="backstory.html"><button type="button" class="goToPage">backstory</button></a>
+                <a href="contact.html"><button type="button" class="goToPage thisPage">contact</button></a>
+            </section>
+        </section>
+    </nav>
+
+    <header class="bar title">
+        <h1>Contact</h1>
+    </header>
+
+    <section class="text">
+        <h2 class="pageMiddle">Phone</h2>
+        <img src="img\smartphone-icon.png" alt="smartphone pictogram" title="smartphone" class="contactPhoto pageMiddle">
+        <h2 class="pageMiddle">+31 6 12345678</h2>
+    </section>
+
+    <p class="divide bar"></p>
+
+    <section class="text">
+        <h2 class="pageMiddle">Email</h2>
+        <img src="img\email-icon.png" alt="email pictogram" title="email" class="contactPhoto pageMiddle">
+        <fieldset>
+        <legend>form</legend>
+            <form action="action_page.php" method="POST" class="pageMiddle flexbox">
+                <p>fields with * are mandatory</p>
+
+                <section class="formbox">
+                    <label for="name">name*</label>
+                    <input type="text" id="name" name="name" placeholder="Your name.." required>
+                </section>
+            
+                <section class="formbox">
+                    <label for="gender">gender*</label>
+                    <select id="gender" name="gender" required>
+                        <option value="man">man</option>
+                        <option value="woman">woman</option>
+                        <option value="non-binairy">non-binairy</option>
+                        <option value="else">else</option>
+                    </select>
+                </section>
+
+                <section class="formbox">
+                    <label for="email">email*</label>
+                    <input type="email" value="email" id="email" name="email" placeholder="an.example@email.com" required>
+                </section>
+
+                <section class="formbox">
+                    <label for="tel">phone number</label>
+                    <input type="tel" id="tel" name="tel" placeholder="country code + number">
+                </section>
+            
+                <section class="formbox">
+                    <label for="message">message*</label>
+                    <textarea id="message" name="message" placeholder="Write something.." required></textarea>
+                </section>
+            
+                <section class="formbox">
+                    <input type="submit" value="Submit">
+                </section>
+            </form>
+        </fieldset>
+    </section>
+    
+    <footer class="bar flexbox">
+        <section class="footerLink flexbox">
+            <a href="home.html"><em>home page</em></a>
+            <a href="whatIsWebsite.html"><em>about umbrarent</em></a>
+            <a href="maps.html"><em>maps</em></a>
+            <a href="howToUse.html"><em>about umbrella's</em></a>
+            <a href="backstory.html"><em>backstory</em></a>
+            <a href="contact.html"><em>contact</em></a>
+        </section>
+        <p>Copyright &copy; 2024 umbarent</p>
+    </footer>
+</body>
+</html>
